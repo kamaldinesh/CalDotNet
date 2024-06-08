@@ -13,7 +13,7 @@ variables:
   sonarQubeProjectVersion: '1.0'
   sonarQubeOrganization: 'Azure_Sonar_DotNet'  # Organization name
   sonarHostUrl: 'https://sonarcloud.io'
-  SONAR_TOKEN: 'your_sonarcloud_token'  # SonarCloud token
+  SONAR_TOKEN: 'ed580b9a75d5a38019a3fb9ccc63160258e74a23'  # SonarCloud token
 
 steps:
 - task: NuGetToolInstaller@1
