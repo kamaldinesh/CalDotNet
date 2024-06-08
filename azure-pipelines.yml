@@ -1,0 +1,57 @@
+trigger:
+- git-vscode
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+  sonarQubeProjectKey: 'azure-sonar-dotnet_calculator'  # Project key
+  sonarQubeProjectName: 'Calculator'  # Project name
+  sonarQubeProjectVersion: '1.0'
+  sonarQubeOrganization: 'Azure_Sonar_DotNet'  # Organization name
+  sonarHostUrl: 'https://sonarcloud.io'
+  SONAR_TOKEN: 'your_sonarcloud_token'  # SonarCloud token
+
+steps:
+- task: NuGetToolInstaller@1
+
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '5.x'  # Specify the .NET Core SDK version to match your project requirements
+
+- script: |
+    dotnet tool install --global dotnet-sonarscanner
+  displayName: 'Install DotNet SonarScanner Global Tool'
+
+- script: |
+    export PATH="$PATH:$HOME/.dotnet/tools"
+    dotnet sonarscanner begin /k:"$(sonarQubeProjectKey)" /o:"$(sonarQubeOrganization)" /d:sonar.host.url="$(sonarHostUrl)" /d:sonar.login="$(SONAR_TOKEN)"
+    dotnet build $(solution) --configuration $(buildConfiguration)
+    dotnet sonarscanner end /d:sonar.login="$(SONAR_TOKEN)"
+  displayName: 'Run SonarScanner'
+
+- task: NuGetCommand@2
+  inputs:
+    restoreSolution: '$(solution)'
+
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: VSTest@2
+  inputs:
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: SonarCloudAnalyze@1
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
