@@ -38,3 +38,47 @@ C:\Users\prathamsharma\source\repos\calculator\calculator\obj\Debug\net5.0\ref\c
 C:\Users\prathamsharma\source\repos\calculator\calculator\obj\Debug\net5.0\calculator.pdb
 C:\Users\prathamsharma\source\repos\calculator\calculator\obj\Debug\net5.0\calculator.genruntimeconfig.cache
 C:\Users\prathamsharma\source\repos\calculator\calculator\obj\Debug\net5.0\calculator.csproj.CopyComplete
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\bin\Debug\net5.0\appsettings.json
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\bin\Debug\net5.0\calculator.exe
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\bin\Debug\net5.0\calculator.deps.json
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\bin\Debug\net5.0\calculator.runtimeconfig.json
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\bin\Debug\net5.0\calculator.runtimeconfig.dev.json
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\bin\Debug\net5.0\calculator.dll
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\bin\Debug\net5.0\calculator.pdb
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\bin\Debug\net5.0\calculator.Views.dll
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\bin\Debug\net5.0\calculator.Views.pdb
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.csproj.AssemblyReference.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.AssemblyInfoInputs.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.AssemblyInfo.cs
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.csproj.CoreCompileInputs.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.RazorAssemblyInfo.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.RazorAssemblyInfo.cs
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\scopedcss\bundle\calculator.styles.css
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\staticwebassets\calculator.StaticWebAssets.Manifest.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.TagHelpers.input.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.TagHelpers.output.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.RazorCoreGenerate.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.RazorTargetAssemblyInfo.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.RazorTargetAssemblyInfo.cs
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.Views.pdb
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.dll
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.pdb
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.genruntimeconfig.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\ref\calculator.dll
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\calculator.csproj.CopyComplete
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\staticwebassets\calculator.StaticWebAssets.Pack.cache
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\staticwebassets\msbuild.calculator.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\staticwebassets\msbuild.build.calculator.props
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.calculator.props
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.calculator.props
+C:\Users\kamalkant\OneDrive - Nagarro\Desktop\Major-assignment-calculator\CalDotNet\calculator\obj\Debug\net5.0\refint\calculator.dll

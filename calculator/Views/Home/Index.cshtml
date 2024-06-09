@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-
+@*
 <style>
     .text-center{
         background-color:aqua;
@@ -29,4 +29,111 @@
         <p><input type="number" asp-for="@ViewData["result"]" /></p>
 
     </div>
-</form>
+</form>*@
+
+<style>
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .calculator-container {
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .calculator-form {
+            padding: 20px;
+        }
+
+        .calculator-input-wrapper {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .calculator-label {
+            position: absolute;
+            top: -10px;
+            left: 10px;
+            background-color: #fff;
+            padding: 0 5px;
+            font-size: 12px;
+            color: #47D7AC;
+        }
+
+        .calculator-input {
+            width: calc(100% - 22px);
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            font-size: 14px;
+        }
+
+        .calculator-button {
+            width: calc(25% - 5px);
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            background-color: #47D7AC;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .calculator-button:not(:last-child) {
+            margin-right: 5px;
+        }
+
+       
+
+        .calculator-result {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            background-color: #f9f9f9;
+            color: #333;
+            font-size: 14px;
+        }
+    </style>
+
+    <form asp-action="Index" class="calculator-form">
+        <div class="calculator-input-wrapper">
+            <label class="calculator-label">First Value</label>
+            <input type="number" asp-for="value1" class="calculator-input" />
+        </div>
+        <div class="calculator-input-wrapper">
+            <label class="calculator-label">Second Value</label>
+            <input type="number" asp-for="value2" class="calculator-input" />
+        </div>
+
+        <div class="calculator-input-wrapper">
+            <input type="submit" value="add" class="calculator-button" asp-for="calculate" />
+            <br />
+            <br />
+            <input type="submit" value="mul" class="calculator-button" asp-for="calculate" />
+            <br />
+            <br /> 
+            <input type="submit" value="sub" class="calculator-button" asp-for="calculate" />
+            <br />
+            <br />
+            <input type="submit" value="divi" class="calculator-button" asp-for="calculate" />
+        </div>
+
+        <div class="calculator-input-wrapper">
+            <label class="calculator-label">Result</label>
+            <input type="number" asp-for="@ViewData["result"]" class="calculator-result" readonly />
+        </div>
+    </form>
+
