@@ -1,5 +1,5 @@
-trigger:
-- git-vscode
+# trigger:
+# - git-vscode
 
 pool:
   vmImage: 'windows-latest'
