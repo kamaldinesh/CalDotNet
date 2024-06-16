@@ -42,12 +42,12 @@ namespace calculator.Controllers
             }
             else if(cal.calculate=="divi")
             {
-                if (b == 0)
+                /*if (b == 0)
                 {
                     throw new DivideByZeroException("Cannot divide by zero.");
                 }
 
-                cal.Result = a / b;
+*/                cal.Result = a / b;
             }
             ViewData["result"] = cal.Result;
             return View();
